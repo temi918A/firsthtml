@@ -1,11 +1,104 @@
+<!--Html - hypertext Markup Language
+gives structure to pur web page
+tells the web browser how to display a content
+a - element
+<a></a>
+-->
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="description" content="This is the WIT HTML Class">
+  <meta name="author" content="Temi">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Learning Style Class</title>
+  <link rel="stylesheet" href="style.css" type="text/css">
 </head>
 <body>
-  <p>This is the next page</p>
+  <!--Paragraph tag-->
+  <p>Hello World!</p>
+  <!--Headings tag
+  h1 - h6
+  -->
+  <h1 class="headerelement">This is h1</h1>
+  <h2 id="headerfont">This is h2</h2>
+  <h3>This is h3</h3>
+  <h4>This is h4</h4>
+  <h5>This is h5</h5>
+  <!--listing
+  ordered list
+  unordered list
+  datalist
+  -->
+  <!--ordered list-->
+  <p>List of fruits</p>
+  <ol>
+    <li>Oranges</li>
+    <li>Apples</li>
+    <li>pears</li>
+  </ol>
+  <!--unordered list-->
+  <p>Programming Languages</p>
+  <ul>
+    <li>Python</li>
+    <li>Html</li>
+    <li>Javascript</li>
+  </ul>
+
+  <!--Create a table-->
+  <h4>WIT Schedule</h4>
+<table border="1">
+  <thead>
+    <tr>
+      <th>Monday</th>
+      <th>Tuesday
+      <th>Wednesday</th>
+      <th>Thursday</th>
+      <th>Friday</th>
+
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Git</td>
+      <td>peer review</td>
+      <td>Codecademy</td>
+      <td>htmlcss</td>
+      <td>bootstrap</td>
+    </tr>
+    <tr>
+      <td>EPS</td>
+      <td>mOCKINTERVIEW</td>
+      <td>Web review</td>
+      <td>Resume Review</td>
+      <td>TGIF</td>
+    </tr>
+  </tbody>
+</table>
+<!--block elements are elements that take up the whole space eg paragraph-->
+<p>block</p>
+<p>show yourself again</p>
+<!--inline elements are elements that take up only  the space they occupy eg span-->
+<span>hey</span>
+<span>another span</span>
+
+<!--div acts like a container for content and it is a block element-->
+<div>
+  <p>My name is Temi</p>
+  <ol>
+    <li>Python</li>
+    <li>Html</li>
+  </ol>
+</div>
+<div>
+</div>
+<a href="next.html">Go to NEXT</a>
+<img src="MainAfter.jpg" alt="a pinky frog">
+<!-- ../ go to next level(directory or folder)-->
+ <!--semantic tag always helps us in understanding what a tag is used for-->
 </body>
 </html>

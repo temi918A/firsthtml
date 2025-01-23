@@ -1,0 +1,17 @@
+/* css*/
+header h1 {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0px;
+}
+
+nav a {
+  color: blue;
+  margin-right: 10px;
+}
+
+main article {
+  font-size: 16px;
+  line-height: 1.5;
+  color: green;
+}

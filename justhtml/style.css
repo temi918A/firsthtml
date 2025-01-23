@@ -1,0 +1,27 @@
+/*
+CSS - Cascading style sheet
+css selectors
+-tag selector
+-class selector
+-id selector
+*/
+
+/* tag selector */
+p{
+  color: blue;
+  font-weight: 700;
+}
+/* class selector */
+.headerelement {
+  font-size: 48px;
+  text-align: center;
+}
+/* ID selector */
+#headerfont {
+  color: yellow;
+  text-align: right;
+}
+
+/* chain without space means that one single element matches both requirements ie selectors - has a higher specificity than when its just one class */
+
+/* chaining with space  sees the relationship as a parent child relationship*/
